@@ -1,0 +1,10 @@
+#Cancel {
+    border: 1px solid darkorange;
+}
+
+#Cancel:hover {
+    background: darkorange;
+}
+.nav-link{
+    color: white;
+}

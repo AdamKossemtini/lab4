@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MUM Golden Dorm Market</title>
+    <link rel="stylesheet" href="lib/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    </head>
+
+<body>
+    <div class="header">
+        <nav>
+        <div class="nav bg-primary text-white">
+            <div class="nav-item">
+                <div class="nav-link active">MUM Golden Dorm Market ::: SRM System</div>
+            </div>
+        </div>
+
+
+    </nav>
+    </div>
+
+
+ 
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="content w-50">
+            <form action="new.html" id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                   
+                        <input type="password" class="form-control" name="Pass" pattern="(?=.+\d)(?=.+[a-z])(?=.+[A-Z]).{10,}$" title="Must
+                        contain at least one number and one uppercase and lowercase letter, and at least 10 or
+        more characters">
+
+
+
+
+                </div>
+                <div class="form-group">
+                    <label for="webUrl">Website URL</label>
+                    <input type="text" class="form-control" id="Url" pattern="^https?:\/\/[a-z]+\..+$" required>
+                </div>
+
+
+
+
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="checkOut">
+                    <label class="form-check-label" for="checkOut">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
